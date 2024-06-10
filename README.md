@@ -41,3 +41,9 @@ Add HTML elements to your page, including but not limited to:
 Check that the text is readable:
 - Color contrast ratio of 4-4.5:1
 - All images have alt attributes
+
+
+<div class="navbar">
+    <a href="About_our_mission.html">About our mission</a>
+    <a href="Connect_with_us.html">Connect with us</a>
+  </div>

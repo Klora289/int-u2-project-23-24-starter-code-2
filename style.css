@@ -1,7 +1,21 @@
-/* The code below centers the text of all h1's on the page. */
-h1 {
+.navbar{
+    display: block;
     text-align:center;
+    justify-content: center; 
 }
+
+header{
+    background-color: rgb(185, 240, 185);
+    display: block;
+    text-align:center;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(244, 244, 123);
+}
+
+/* The code below centers the text of all h1's on the page. */
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
@@ -9,21 +23,35 @@ img {
   margin-left: auto;
   margin-right: auto;
   width:400px;
+  border: 5px solid rgb(185, 240, 185);
+  border-radius: 100px;
 }
 
 /* The code below centers the text of all h2's on the page. */
 h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    background-color: pink;
     text-align:center;
+    justify-content: center;
 }
 
-/* The code below aligns all the sections horizontally on the bottom. */
-.section-container {
-    display:flex;
-    justify-content:space-between;
+.section-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+    text-align:center;
+    justify-content: center;
 }
-
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
-    margin:5px;
-}
+    border: 5px rgbrgb(185, 240, 185);
+    display: block;
+    text-align:center;
+    justify-content: center;
+    background-color: rgb(189, 255, 203);
+    color: rgb(29, 26, 26);
+} 
